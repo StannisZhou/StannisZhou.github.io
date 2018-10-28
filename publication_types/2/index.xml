@@ -7,55 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2013 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Base-pair Ambiguity and the Kinetics of RNA Folding</title>
-      <link>/publication/rnastatistics/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
-      
-      <guid>/publication/rnastatistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Differentiable Inference and Compositionality in Probabilistic Generative Models</title>
-      <link>/publication/cycles/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
-      
-      <guid>/publication/cycles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multiscale Optimization for Stochastic Ill-conditioning in Deep Neural Networks</title>
-      <link>/publication/multiscale/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
-      
-      <guid>/publication/multiscale/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Overcoming Entropic Barriers by Capacity Hopping</title>
-      <link>/publication/golfcourse/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
-      
-      <guid>/publication/golfcourse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sparse Feature Selection by Information Theory</title>
-      <link>/publication/zhou2014/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
-      
-      <guid>/publication/zhou2014/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>L1-graph construction using structured sparsity</title>
