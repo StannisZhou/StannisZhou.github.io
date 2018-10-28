@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Guangyao (Stannis) Zhou</title>
+    <link>/home/</link>
+    <description>Recent content in Homes on Guangyao (Stannis) Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>Biography I&amp;rsquo;m a Postdoctoral Associate in the Division of Applied Math, Brown University, working with Prof. Stuart Geman. Previously, I got my Ph.D. in Applied Math at Brown University, and my bachelor degrees from Peking University. Here&amp;rsquo;s my CV
+I&amp;rsquo;m interested in using probabilistic and statistical methods to understand
+ Kinetics v.s. Thermodynamics in the folding of RNA molecules Compositional Probabilistic Generative Models for Computer Vision  My methodological research has focused on</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/home/publications/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
