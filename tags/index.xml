@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Guangyao (Stannis) Zhou</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Guangyao (Stannis) Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 01 Jan 2013 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Graph construction</title>
+      <link>/tags/graph-construction/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/graph-construction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L1-graph</title>
+      <link>/tags/l1-graph/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/l1-graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparse representation</title>
+      <link>/tags/sparse-representation/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/sparse-representation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectral clustering</title>
+      <link>/tags/spectral-clustering/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/spectral-clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structured sparsity</title>
+      <link>/tags/structured-sparsity/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/structured-sparsity/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
