@@ -15,7 +15,7 @@
   
     
   
-  <meta name="description" content=" We present Capacity Hopping (CHop), a method for estimating hitting probabilities of small targets in molecular dynamics simulations. Reaching small targets out of a vast number of possible configurations constitutes an *entropic barrier*. Experimental evidence suggests that entropic barriers are ubiquitous in biomolecular systems, and often characterize the rate-limiting step of biomolecular processes. Hitting probabilities provide valuable information in the presence of entropic barriers. CHop is based on a novel theoretical analysis of hitting probabilities. We show that in the presence of entropic barriers, hitting probabilities are approximately invariant to initial conditions that are modestly far away from the targets. Given this invariance, we show that hitting probabilities must also be invariant to the energy landscape away from the targets, and can be well-approximated in terms of *capacities* of local sets around the targets. Using these theoretical results and a new capacity estimation algorithm, we develop CHop, a method for estimating the approximately constant hitting probabilities of small targets in the presence of entropic barriers. Numerical experiments on a prototypical entropic barrier, a toy model with a golf-course potential, show that CHop is nearly as accurate as direct simulations in estimating hitting probabilities, but 662 times faster.">
+  <meta name="description" content=" We propose an approach for estimating the probability that a given small target, among many, will be the first to be reached in a molecular dynamics simulation. Reaching small targets out of a vast number of possible configurations constitutes an entropic barrier. Experimental evidence suggests that entropic barriers are ubiquitous in biomolecular systems, and often characterize the rate-limiting step of biomolecular processes. Presumably for the same reasons, they often characterize the rate-limiting step in simulations. To the extent that first-passage probabilities can be computed without requiring direct simulation, the process of traversing entropic barriers can replaced by a single choice from the computed (*first-passage*) distribution. We will show that in the presence of certain entropic barriers, first-passage probabilities are approximately invariant to the initial configuration, provided that it is modestly far away from each of the targets. We will further show that as a consequence of this invariance, the first-passage distribution can be well-approximated in terms of *capacities* of local sets around the targets. Using these theoretical results and a Monte Carlo mechanism for approximating capacities, we provide a method for estimating the hitting probabilities of small targets in the presence of entropic barriers. In numerical experiments with an idealized (*golf-course*) potential, the estimates are as accurate as the results of direct simulations, but far faster to compute.">
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/golfcourse/">
@@ -92,8 +92,8 @@
   
   <meta property="og:site_name" content="Guangyao (Stannis) Zhou">
   <meta property="og:url" content="/publication/golfcourse/">
-  <meta property="og:title" content="Overcoming Entropic Barriers by Capacity Hopping | Guangyao (Stannis) Zhou">
-  <meta property="og:description" content=" We present Capacity Hopping (CHop), a method for estimating hitting probabilities of small targets in molecular dynamics simulations. Reaching small targets out of a vast number of possible configurations constitutes an *entropic barrier*. Experimental evidence suggests that entropic barriers are ubiquitous in biomolecular systems, and often characterize the rate-limiting step of biomolecular processes. Hitting probabilities provide valuable information in the presence of entropic barriers. CHop is based on a novel theoretical analysis of hitting probabilities. We show that in the presence of entropic barriers, hitting probabilities are approximately invariant to initial conditions that are modestly far away from the targets. Given this invariance, we show that hitting probabilities must also be invariant to the energy landscape away from the targets, and can be well-approximated in terms of *capacities* of local sets around the targets. Using these theoretical results and a new capacity estimation algorithm, we develop CHop, a method for estimating the approximately constant hitting probabilities of small targets in the presence of entropic barriers. Numerical experiments on a prototypical entropic barrier, a toy model with a golf-course potential, show that CHop is nearly as accurate as direct simulations in estimating hitting probabilities, but 662 times faster.">
+  <meta property="og:title" content="Capacities and the Free Passage of Entropic Barriers | Guangyao (Stannis) Zhou">
+  <meta property="og:description" content=" We propose an approach for estimating the probability that a given small target, among many, will be the first to be reached in a molecular dynamics simulation. Reaching small targets out of a vast number of possible configurations constitutes an entropic barrier. Experimental evidence suggests that entropic barriers are ubiquitous in biomolecular systems, and often characterize the rate-limiting step of biomolecular processes. Presumably for the same reasons, they often characterize the rate-limiting step in simulations. To the extent that first-passage probabilities can be computed without requiring direct simulation, the process of traversing entropic barriers can replaced by a single choice from the computed (*first-passage*) distribution. We will show that in the presence of certain entropic barriers, first-passage probabilities are approximately invariant to the initial configuration, provided that it is modestly far away from each of the targets. We will further show that as a consequence of this invariance, the first-passage distribution can be well-approximated in terms of *capacities* of local sets around the targets. Using these theoretical results and a Monte Carlo mechanism for approximating capacities, we provide a method for estimating the hitting probabilities of small targets in the presence of entropic barriers. In numerical experiments with an idealized (*golf-course*) potential, the estimates are as accurate as the results of direct simulations, but far faster to compute.">
   
   
     
@@ -109,7 +109,7 @@
 
   
 
-  <title>Overcoming Entropic Barriers by Capacity Hopping | Guangyao (Stannis) Zhou</title>
+  <title>Capacities and the Free Passage of Entropic Barriers | Guangyao (Stannis) Zhou</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -223,7 +223,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Overcoming Entropic Barriers by Capacity Hopping</h1>
+  <h1 itemprop="name">Capacities and the Free Passage of Entropic Barriers</h1>
 
   
 
@@ -273,7 +273,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Overcoming%20Entropic%20Barriers%20by%20Capacity%20Hopping&amp;url=%2fpublication%2fgolfcourse%2f"
+         href="https://twitter.com/intent/tweet?text=Capacities%20and%20the%20Free%20Passage%20of%20Entropic%20Barriers&amp;url=%2fpublication%2fgolfcourse%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -287,21 +287,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fgolfcourse%2f&amp;title=Overcoming%20Entropic%20Barriers%20by%20Capacity%20Hopping"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fgolfcourse%2f&amp;title=Capacities%20and%20the%20Free%20Passage%20of%20Entropic%20Barriers"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fgolfcourse%2f&amp;title=Overcoming%20Entropic%20Barriers%20by%20Capacity%20Hopping"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fgolfcourse%2f&amp;title=Capacities%20and%20the%20Free%20Passage%20of%20Entropic%20Barriers"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Overcoming%20Entropic%20Barriers%20by%20Capacity%20Hopping&amp;body=%2fpublication%2fgolfcourse%2f">
+         href="mailto:?subject=Capacities%20and%20the%20Free%20Passage%20of%20Entropic%20Barriers&amp;body=%2fpublication%2fgolfcourse%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -322,7 +322,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We present Capacity Hopping (CHop), a method for estimating hitting probabilities of small targets in molecular dynamics simulations. Reaching small targets out of a vast number of possible configurations constitutes an <em>entropic barrier</em>. Experimental evidence suggests that entropic barriers are ubiquitous in biomolecular systems, and often characterize the rate-limiting step of biomolecular processes. Hitting probabilities provide valuable information in the presence of entropic barriers. CHop is based on a novel theoretical analysis of hitting probabilities. We show that in the presence of entropic barriers, hitting probabilities are approximately invariant to initial conditions that are modestly far away from the targets. Given this invariance, we show that hitting probabilities must also be invariant to the energy landscape away from the targets, and can be well-approximated in terms of <em>capacities</em> of local sets around the targets. Using these theoretical results and a new capacity estimation algorithm, we develop CHop, a method for estimating the approximately constant hitting probabilities of small targets in the presence of entropic barriers. Numerical experiments on a prototypical entropic barrier, a toy model with a golf-course potential, show that CHop is nearly as accurate as direct simulations in estimating hitting probabilities, but 662 times faster.</p>
+    <p class="pub-abstract" itemprop="text">We propose an approach for estimating the probability that a given small target, among many, will be the first to be reached in a molecular dynamics simulation. Reaching small targets out of a vast number of possible configurations constitutes an entropic barrier. Experimental evidence suggests that entropic barriers are ubiquitous in biomolecular systems, and often characterize the rate-limiting step of biomolecular processes. Presumably for the same reasons, they often characterize the rate-limiting step in simulations. To the extent that first-passage probabilities can be computed without requiring direct simulation, the process of traversing entropic barriers can replaced by a single choice from the computed (<em>first-passage</em>) distribution. We will show that in the presence of certain entropic barriers, first-passage probabilities are approximately invariant to the initial configuration, provided that it is modestly far away from each of the targets. We will further show that as a consequence of this invariance, the first-passage distribution can be well-approximated in terms of <em>capacities</em> of local sets around the targets. Using these theoretical results and a Monte Carlo mechanism for approximating capacities, we provide a method for estimating the hitting probabilities of small targets in the presence of entropic barriers. In numerical experiments with an idealized (<em>golf-course</em>) potential, the estimates are as accurate as the results of direct simulations, but far faster to compute.</p>
     
 
     
@@ -416,7 +416,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/StannisZhou/capacity_hopping" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/StannisZhou/entropic_barrier" target="_blank" rel="noopener">
   Code
 </a>
 
