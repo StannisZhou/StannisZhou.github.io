@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,26 +18,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/home/about/</guid>
-      <description>About I am currently a Postdoctoral Associate in the Division of Applied Math, Brown University, where I completed my Ph.D. dissertation in August, 2018. I received my bachelor degrees from Peking University. Here&amp;rsquo;s my CV.
-I am currently focused on designing probabilistic generative models for computer vision, in collaboration with Stuart Geman and Matthew Harrison. The idea is to embed discrete compositional models into continuous and differentiable architectures so as to harness modern computational tools.</description>
+      <description>About I am an applied mathematician, and a researcher at Vicarious AI. I obtained my Ph.D. in applied math at Brown University in 2018, advised by Prof. Stuart Geman, and my bachelor degrees from Peking University. Here&amp;rsquo;s my CV.
+My current research interests are in efficient Markov Chain Monte Carlo (MCMC) methods for discrete probabilistic models. More generally, I have broad interests in the field of probabilistic generative models.</description>
     </item>
     
     <item>
       <title>Publications</title>
       <link>/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/publications/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>/home/teaching/</guid>
-      <description> At Brown University:  Teaching Assistant, APMA 1650 Statistical Inference, Fall 2013 Teaching Assistant, APMA 0650 Essential Statistics, Spring 2014 Substitute Lecturer, APMA 2610 Recent Applications of Probability and Statistics, Spring 2015 Mentor, APMA Grad-Undergrad Mentoring Program, Fall 2016&amp;amp;Spring 2017  </description>
     </item>
     
   </channel>

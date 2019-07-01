@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Base-pair Ambiguity and the Kinetics of RNA Folding</title>
       <link>/publication/rnastatistics/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
       
       <guid>/publication/rnastatistics/</guid>
       <description></description>
@@ -24,18 +24,9 @@
     <item>
       <title>Capacities and the Free Passage of Entropic Barriers</title>
       <link>/publication/golfcourse/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
       
       <guid>/publication/golfcourse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multiscale Optimization for Stochastic Ill-conditioning in Deep Neural Networks</title>
-      <link>/publication/multiscale/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
-      
-      <guid>/publication/multiscale/</guid>
       <description></description>
     </item>
     
