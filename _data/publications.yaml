@@ -1,0 +1,45 @@
+papers:
+
+  - title: "Mixed Hamiltonian Monte Carlo for mixed discrete and continuous variables"
+    authors: "<b>Guangyao Zhou</b>"
+    venue: "arXiv:1909.04852 [stat.CO] (Extended abstract accepted as <b>talk</b> at PROBPROG 2020), 2020"
+    paper_pdf: "/papers/mixed_hmc.pdf"
+    preprint: "https://arxiv.org/abs/1909.04852"
+    code: "https://github.com/StannisZhou/mixed_hmc"
+    selected: y
+
+  - title: "Query Training: Learning and inference for directed and undirected graphical models"
+    authors: "Miguel Lázaro-Gredilla, Wolfgang Lehrach, Nishad Gothoskar, <b>Guangyao Zhou</b>, Antoine Dedieu, Dileep George"
+    venue: "arXiv:2006.06803 [stat.ML], 2020"
+    preprint: "https://arxiv.org/abs/2006.06803"
+    selected: y
+
+  - title: "Capacities and the efficient computation of first passage probabilities"
+    authors: "Jackson Loper<sup>‡</sup>, <b>Guangyao Zhou</b><sup>‡</sup>, Stuart Geman"
+    venue: "Accepted, Physical Review E, 2020"
+    paper_pdf: "/papers/diffusion_manuscript.pdf"
+    code: "https://github.com/StannisZhou/entropic_barrier"
+    selected: y
+
+  - title: "Base-pair ambiguity and the kinetics of RNA folding"
+    authors: "<b>Guangyao Zhou</b>, Jackson Loper, Stuart Geman"
+    venue: "BMC Bioinformatics, 20(1):666, 2019"
+    doi: "http://dx.doi.org/10.1186/s12859-019-3303-6"
+    paper_pdf: "/papers/rna_statistics.pdf"
+    preprint: "https://www.biorxiv.org/content/10.1101/329698v4"
+    code: "https://github.com/StannisZhou/mixed_hmc"
+    selected: y
+
+  - title: "Sparse feature selection by information theory"
+    authors: "<b>Guangyao Zhou</b>, Stuart Geman, Joachim M Buhmann"
+    venue: "IEEE International Symposium on Information Theory (ISIT), 2014"
+    doi: "https://doi.org/10.1109/ISIT.2014.6874968"
+    paper_pdf: "/papers/ISIT2014_GSZ_140427.pdf"
+    selected: y
+
+  - title: "L1-graph construction using structured sparsity"
+    authors: "<b>Guangyao Zhou</b>, Zhiwu Lu, Yuxin Peng"
+    venue: "Neurocomputing, 120:441-452, 2013"
+    doi: "https://doi.org/10.1016/j.neucom.2013.03.045"
+    paper_pdf: "/papers/L1Graph.pdf"
+    selected: y

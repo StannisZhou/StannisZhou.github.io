@@ -1,0 +1,30 @@
+experiences:
+- place: "Vicarious AI"
+  time: "2019 - now"
+  title: "Researcher"
+  subtitle: ""
+  category: "work"
+
+- place: "Brown University/ICERM"
+  time: "2018 - 2019"
+  title: "Postdoctoral Associate"
+  subtitle: ""
+  category: "work"
+
+- place: "Amazon Lab126"
+  time: "2017 - 2018"
+  title: "Applied Scientist Intern"
+  subtitle: ""
+  category: "work"
+
+- place: "Brown University"
+  time: "2012 - 2018"
+  title: "Ph.D. in Applied Mathematics"
+  subtitle: "Advisor: Stuart Geman"
+  category: "school"
+
+- place: "Peking University"
+  time: "2008 - 2012"
+  title: "B.Sc. Student"
+  subtitle: "Probability and Statistics"
+  category: "school"
