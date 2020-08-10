@@ -14,9 +14,11 @@ papers:
     preprint: "https://arxiv.org/abs/2006.06803"
     selected: y
 
-  - title: "Capacities and the efficient computation of first passage probabilities"
+  - title: "Capacities and efficient computation of first passage probabilities"
     authors: "Jackson Loper<sup>‡</sup>, <b>Guangyao Zhou</b><sup>‡</sup>, Stuart Geman"
-    venue: "Accepted, Physical Review E, 2020"
+    venue: "Phys. Rev. E 102, 023304, 2020"
+    doi: "https://doi.org/10.1103/PhysRevE.102.023304"
+    preprint: "https://arxiv.org/abs/1811.00205"
     paper_pdf: "/papers/diffusion_manuscript.pdf"
     code: "https://github.com/StannisZhou/entropic_barrier"
     selected: y
