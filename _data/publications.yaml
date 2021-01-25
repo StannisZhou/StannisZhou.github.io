@@ -1,23 +1,26 @@
 papers:
 
+  - title: "Query Training: Learning a Worse Model to Infer Better Marginals in Undirected Graphical Models with Hidden Variables"
+    authors: "Miguel Lázaro-Gredilla, Wolfgang Lehrach, Nishad Gothoskar, <b>Guangyao Zhou</b>,<br>Antoine Dedieu, Dileep George"
+    venue: "AAAI Conference on Artificial Ingelligence (AAAI) 2021"
+    preprint: "https://arxiv.org/abs/2006.06803"
+    code: "https://github.com/vicariousinc/query_training"
+    selected: y
+
   - title: "Mixed Hamiltonian Monte Carlo for mixed discrete and continuous variables"
     authors: "<b>Guangyao Zhou</b>"
-    venue: "Accepted, Neural Information Processing Systems (NeurIPS) 2020<br>Extended abstract accepted as <b>talk</b> at PROBPROG 2020"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2020<br>Extended abstract accepted as <b>talk</b> at PROBPROG 2020"
     paper_pdf: "/papers/mixed_hmc.pdf"
     preprint: "https://arxiv.org/abs/1909.04852"
     code: "https://github.com/StannisZhou/mixed_hmc"
+    video: "https://www.youtube.com/watch?v=ag44SuB0wB8"
+    poster: "/papers/mixed_hmc_neurips2020_poster.pdf"
     selected: y
 
   - title: "A detailed mathematical theory of thalamic and cortical microcircuits based on inference<br>in a generative vision model"
     authors: "Dileep George, Miguel Lázaro-Gredilla, Wolfgang Lehrach, Antoine Dedieu, <b>Guangyao Zhou</b>"
     venue: "bioRxiv 2020.09.09.290601"
     preprint: "https://www.biorxiv.org/content/10.1101/2020.09.09.290601v1"
-    selected: y
-
-  - title: "Query Training: Learning and inference for directed and undirected graphical models"
-    authors: "Miguel Lázaro-Gredilla, Wolfgang Lehrach, Nishad Gothoskar, <b>Guangyao Zhou</b>,<br>Antoine Dedieu, Dileep George"
-    venue: "arXiv:2006.06803 [stat.ML], 2020"
-    preprint: "https://arxiv.org/abs/2006.06803"
     selected: y
 
   - title: "Capacities and efficient computation of first passage probabilities"
