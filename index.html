@@ -41,6 +41,10 @@ title: Personal Webpage
           <a class="button" href="{{ paper.preprint }}" target="_blank">Preprint</a>
         {% endif %}
 
+        {% if paper.erratum %}
+          <a class="button" href="{{ paper.erratum | prepend: site.baseurl }}" target="_blank">Erratum</a>
+        {% endif %}
+
         {% if paper.slides %}
           <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
         {% endif %}
