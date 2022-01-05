@@ -103,8 +103,17 @@
 
 %%% ------------------------------------------------------------
 \NewPart{Work Experiences}{}
+\EducationEntry{Staff Research Scientist, \href{https://www.vicarious.com/}{Vicarious AI}}{2021.10-present}{}
 
-\EducationEntry{Researcher, \href{https://www.vicarious.com/}{Vicarious AI}}{2019.7-present}{}
+\vspace*{-11pt}
+
+\EducationEntry{Researcher, \href{https://www.vicarious.com/}{Vicarious AI}}{2019.7-2021.9}{
+	\begin{itemize}[noitemsep]
+		\item Modeling and infrastructure improvements for object detection in robotic applications.
+		\item Research on inference and learning in probabilistic graphical models.
+		\item Leading the design and implementation of the open source package \href{https://github.com/vicariousinc/PGMax}{PGMax} for scalable loopy belief propagation on discrete probabilistic graphical models in \href{https://github.com/google/jax}{JAX}.
+	\end{itemize}
+}
 
 %\vspace{3mm}
 
@@ -147,7 +156,10 @@ and
 
 
 \begin{itemize}
-  \item \href{https://arxiv.org/abs/2006.06803}{\bibentry{Zhou2020-qt}}
+  \item \bibentry{zhou2022pgmax}
+  \item \bibentry{zhou2022mahmc}
+  \item \href{https://arxiv.org/abs/2112.03371}{\bibentry{zhou2021graphical}}
+  \item \href{https://ojs.aaai.org/index.php/AAAI/article/view/17004}{\bibentry{Zhou2020-qt}}
   \item \href{https://stanniszhou.github.io/papers/mixed_hmc.pdf}{\bibentry{Zhou2020-wm}}
   \item \href{https://www.biorxiv.org/content/10.1101/2020.09.09.290601v1}{\bibentry{George2020.09.09.290601}}
   \item \href{http://stanniszhou.github.io/papers/diffusion_manuscript.pdf}{\bibentry{Loper2019-fh}}
@@ -155,5 +167,9 @@ and
   \item \href{http://stanniszhou.github.io/papers/ISIT2014_GSZ_140427.pdf}{\bibentry{Zhou2014-pr}}
   \item \href{http://stanniszhou.github.io/papers/L1Graph.pdf}{\bibentry{Zhou2013-gt}}
 \end{itemize}
+
+\NewPart{Services}
+
+Reviewer for ICML 2020-2022, NeurIPS 2021, ICLR 2022, AISTATS 2022
 
 \end{document}

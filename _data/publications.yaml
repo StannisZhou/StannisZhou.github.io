@@ -1,5 +1,22 @@
 papers:
 
+  - title: "PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX"
+    authors: "<b>Guangyao Zhou</b><sup>‡</sup>, Nishanth Kumar<sup>‡</sup>, Miguel Lázaro-Gredilla, Shrinu Kushagra, Dileep George"
+    code: "https://github.com/vicariousinc/PGMax"
+    selected: y
+
+  - title: "Metropolis Augmented Hamiltonian Monte Carlo"
+    authors: "<b>Guangyao Zhou</b>"
+    venue: "Symposium on Advances in Approximate Bayesian Inference (AABI) 2022"
+    selected: y
+
+  - title: "Graphical Models with Attention for Context-Specific Independence and an Application to Perceptual Grouping"
+    authors: "<b>Guangyao Zhou</b>, Wolfgang Lehrach, Antoine Dedieu, Miguel Lázaro-Gredilla, Dileep George"
+    venue: "arXiv:2112.03371"
+    preprint: "https://arxiv.org/abs/2112.03371"
+    code: "https://github.com/vicariousinc/mam"
+    selected: y
+
   - title: "Query Training: Learning a Worse Model to Infer Better Marginals in Undirected Graphical Models with Hidden Variables"
     authors: "Miguel Lázaro-Gredilla, Wolfgang Lehrach, Nishad Gothoskar, <b>Guangyao Zhou</b>,<br>Antoine Dedieu, Dileep George"
     venue: "AAAI Conference on Artificial Ingelligence (AAAI) 2021"
