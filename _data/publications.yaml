@@ -8,6 +8,8 @@ papers:
   - title: "Metropolis Augmented Hamiltonian Monte Carlo"
     authors: "<b>Guangyao Zhou</b>"
     venue: "Symposium on Advances in Approximate Bayesian Inference (AABI) 2022"
+    preprint: "https://arxiv.org/abs/2201.08044"
+    code: "https://github.com/StannisZhou/mahmc"
     selected: y
 
   - title: "Graphical Models with Attention for Context-Specific Independence and an Application to Perceptual Grouping"
