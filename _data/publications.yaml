@@ -3,6 +3,9 @@ papers:
   - title: "PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX"
     authors: "<b>Guangyao Zhou</b><sup>‡</sup>, Nishanth Kumar<sup>‡</sup>, Miguel Lázaro-Gredilla, Shrinu Kushagra, Dileep George"
     code: "https://github.com/vicariousinc/PGMax"
+    preprint: "https://arxiv.org/abs/2202.04110"
+    venue: "arXiv:2202.04110, 2022"
+    blog: "https://www.vicarious.com/posts/pgmax-factor-graphs-for-discrete-probabilistic-graphical-models-and-loopy-belief-propagation-in-jax/"
     selected: y
 
   - title: "Metropolis Augmented Hamiltonian Monte Carlo"
@@ -14,7 +17,7 @@ papers:
 
   - title: "Graphical Models with Attention for Context-Specific Independence and an Application to Perceptual Grouping"
     authors: "<b>Guangyao Zhou</b>, Wolfgang Lehrach, Antoine Dedieu, Miguel Lázaro-Gredilla, Dileep George"
-    venue: "arXiv:2112.03371"
+    venue: "arXiv:2112.03371, 2021"
     preprint: "https://arxiv.org/abs/2112.03371"
     code: "https://github.com/vicariousinc/mam"
     selected: y
@@ -39,7 +42,7 @@ papers:
 
   - title: "A detailed mathematical theory of thalamic and cortical microcircuits based on inference<br>in a generative vision model"
     authors: "Dileep George, Miguel Lázaro-Gredilla, Wolfgang Lehrach, Antoine Dedieu, <b>Guangyao Zhou</b>"
-    venue: "bioRxiv 2020.09.09.290601"
+    venue: "bioRxiv 2020.09.09.290601, 2020"
     preprint: "https://www.biorxiv.org/content/10.1101/2020.09.09.290601v1"
     selected: y
 

@@ -60,6 +60,10 @@ title: Personal Webpage
         {% if paper.code %}
           <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
         {% endif %}
+
+        {% if paper.blog %}
+          <a class="button" href="{{ paper.blog }}" target="_blank">Blog</a>
+        {% endif %}
       </div>
     </div>
   {% endfor %}
