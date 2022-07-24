@@ -1,7 +1,7 @@
 papers:
 
   - title: "PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX"
-    authors: "<b>Guangyao Zhou</b><sup>‡</sup>, Nishanth Kumar<sup>‡</sup>, Miguel Lázaro-Gredilla, Shrinu Kushagra, Dileep George"
+    authors: "<b>Guangyao Zhou</b><sup>‡</sup>, Nishanth Kumar<sup>‡</sup>, Antoine Dedieu, Miguel Lázaro-Gredilla, Shrinu Kushagra, Dileep George"
     code: "https://github.com/vicariousinc/PGMax"
     preprint: "https://arxiv.org/abs/2202.04110"
     venue: "arXiv:2202.04110, 2022"

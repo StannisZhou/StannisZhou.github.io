@@ -1,6 +1,12 @@
 experiences:
+- place: "DeepMind"
+  time: "2022 - now"
+  title: "Research Scientist"
+  subtitle: ""
+  category: "work"
+
 - place: "Vicarious AI"
-  time: "2021 - now"
+  time: "2021 - 2022"
   title: "Staff Research Scientist"
   subtitle: ""
   category: "work"
