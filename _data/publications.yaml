@@ -1,9 +1,18 @@
 papers:
 
-  - title: "3D Neural Embedding Likelihood for Robust Probabilistic Inverse Graphics"
+  - title: "RoboTAP: Tracking Arbitrary Points for Few-Shot Visual Imitation"
+    authors: "Mel Vecerik, Carl Doersch, Yi Yang, Todor Davchev, Yusuf Aytar, <b>Guangyao Zhou</b>, Raia Hadsell, Lourdes Agapito, Jon Scholz"
+    preprint: "https://arxiv.org/abs/2308.15975"
+    website: "https://robotap.github.io/"
+    code: "https://github.com/google-deepmind/tapnet"
+    venue: "arXiv:2308.15975, 2023"
+    selected: y
+  - title: "3D Neural Embedding Likelihood: Probabilistic Inverse Graphics for Robust 6D Pose Estimation"
     authors: "<b>Guangyao Zhou</b><sup>‡</sup>, Nishad Gothoskar<sup>‡</sup>, Lirui Wang, Joshua B Tenenbaum, Dan Gutfreund, Miguel Lázaro-Gredilla, Dileep George, Vikash K Mansinghka"
     preprint: "https://arxiv.org/abs/2302.03744"
-    venue: "arXiv:2302.03744, 2023"
+    website: "https://probcomp.github.io/nel/"
+    code: "https://github.com/google-deepmind/threednel"
+    venue: "International Conference on Computer Vision (ICCV), 2023"
     selected: y
   - title: "Graph schemas as abstractions for transfer learning, inference, and planning"
     authors: "J Swaroop Guntupalli, Rajkumar Vasudeva Raju, Shrinu Kushagra, Carter Wendelken, Danny Sawyer, Ishan Deshpande, <b>Guangyao Zhou</b>, Miguel Lázaro-Gredilla, Dileep George"
@@ -13,6 +22,7 @@ papers:
   - title: "Learning noisy-OR Bayesian Networks with Max-Product Belief Propagation"
     authors: "Antoine Dedieu, <b>Guangyao Zhou</b>, Dileep George, Miguel Lázaro-Gredilla"
     preprint: "https://arxiv.org/abs/2302.00099"
+    code: "https://github.com/google-deepmind/max_product_noisy_or"
     venue: "International Conference on Machine Learning (ICML), 2023"
     selected: y
   - title: "Space is a latent sequence: Structured sequence learning as a unified theory of representation in the hippocampus"
@@ -22,7 +32,7 @@ papers:
     selected: y
   - title: "PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX"
     authors: "<b>Guangyao Zhou</b>, Antoine Dedieu, Nishanth Kumar, Wolfgang Lehrach, Miguel Lázaro-Gredilla, Shrinu Kushagra, Dileep George"
-    code: "https://github.com/deepmind/PGMax"
+    code: "https://github.com/google-deepmind/PGMax"
     preprint: "https://arxiv.org/abs/2202.04110"
     venue: "arXiv:2202.04110, 2022"
     selected: y

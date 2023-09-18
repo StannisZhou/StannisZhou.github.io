@@ -1,6 +1,12 @@
 experiences:
+- place: "Google DeepMind"
+  time: "2023 - now"
+  title: "Research Scientist"
+  subtitle: ""
+  category: "work"
+
 - place: "DeepMind"
-  time: "2022 - now"
+  time: "2022 - 2023"
   title: "Research Scientist"
   subtitle: ""
   category: "work"
