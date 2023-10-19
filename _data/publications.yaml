@@ -34,7 +34,7 @@ papers:
     authors: "<b>Guangyao Zhou</b>, Antoine Dedieu, Nishanth Kumar, Wolfgang Lehrach, Miguel Lázaro-Gredilla, Shrinu Kushagra, Dileep George"
     code: "https://github.com/google-deepmind/PGMax"
     preprint: "https://arxiv.org/abs/2202.04110"
-    venue: "arXiv:2202.04110, 2022"
+    venue: "Accepted conditioned on minor revisions, Journal of Machine Learning Research MLOSS, 2023+"
     selected: y
 
   - title: "Metropolis Augmented Hamiltonian Monte Carlo"
