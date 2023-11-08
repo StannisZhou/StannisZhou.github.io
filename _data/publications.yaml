@@ -1,5 +1,11 @@
 papers:
 
+  - title: "PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX"
+    authors: "<b>Guangyao Zhou</b>, Antoine Dedieu, Nishanth Kumar, Wolfgang Lehrach, Miguel Lázaro-Gredilla, Shrinu Kushagra, Dileep George"
+    code: "https://github.com/google-deepmind/PGMax"
+    preprint: "https://arxiv.org/abs/2202.04110"
+    venue: "Accepted conditioned on minor revisions, Journal of Machine Learning Research MLOSS, 2023+"
+    selected: y
   - title: "RoboTAP: Tracking Arbitrary Points for Few-Shot Visual Imitation"
     authors: "Mel Vecerik, Carl Doersch, Yi Yang, Todor Davchev, Yusuf Aytar, <b>Guangyao Zhou</b>, Raia Hadsell, Lourdes Agapito, Jon Scholz"
     preprint: "https://arxiv.org/abs/2308.15975"
@@ -29,12 +35,6 @@ papers:
     authors: "Rajkumar Vasudeva Raju, J Swaroop Guntupalli, <b>Guangyao Zhou</b>, Miguel Lázaro-Gredilla, Dileep George"
     preprint: "https://arxiv.org/abs/2212.01508"
     venue: "arXiv:2212.01508, 2022"
-    selected: y
-  - title: "PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX"
-    authors: "<b>Guangyao Zhou</b>, Antoine Dedieu, Nishanth Kumar, Wolfgang Lehrach, Miguel Lázaro-Gredilla, Shrinu Kushagra, Dileep George"
-    code: "https://github.com/google-deepmind/PGMax"
-    preprint: "https://arxiv.org/abs/2202.04110"
-    venue: "Accepted conditioned on minor revisions, Journal of Machine Learning Research MLOSS, 2023+"
     selected: y
 
   - title: "Metropolis Augmented Hamiltonian Monte Carlo"

@@ -1,5 +1,5 @@
 \documentclass[paper=a4,fontsize=11pt]{scrartcl} % KOMA-article class
-                            
+
 \makeatletter
 \let\saved@bibitem\@bibitem
 \makeatother
@@ -30,8 +30,8 @@
 \usepackage{sectsty}
 
 \sectionfont{%                      % Change font of \section command
-    \usefont{OT1}{phv}{b}{n}%       % bch-b-n: CharterBT-Bold font
-    \sectionrule{0pt}{0pt}{-5pt}{1pt}}
+	\usefont{OT1}{phv}{b}{n}%       % bch-b-n: CharterBT-Bold font
+	\sectionrule{0pt}{0pt}{-5pt}{1pt}}
 
 %%% Macros
 %%% ------------------------------------------------------------
@@ -40,42 +40,42 @@
 \newcommand{\sepspace}{\vspace*{1em}}       % Vertical space macro
 
 \newcommand{\MyName}[1]{ % Name
-        \Huge \usefont{OT1}{phv}{b}{n} \hfill #1
-        \par \normalsize \normalfont}
-        
+	\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+	\par \normalsize \normalfont}
+
 \newcommand{\MySlogan}[1]{ % Slogan (optional)
-        \large \usefont{OT1}{phv}{m}{n}\hfill #1
-        \par \normalsize \normalfont}
+	\large \usefont{OT1}{phv}{m}{n}\hfill #1
+	\par \normalsize \normalfont}
 
 \newcommand{\NewPart}[1]{\section*{{#1}}}
 
 \newcommand{\PersonalEntry}[2]{
-        \noindent\hangindent=2em\hangafter=0 % Indentation
-        \parbox{\spacebox}{        % Box to align text
-        \textit{#1}}               % Entry name (birth, address, etc.)
-        \hspace{1.5em} #2 \par}    % Entry value
+	\noindent\hangindent=2em\hangafter=0 % Indentation
+	\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}               % Entry name (birth, address, etc.)
+	\hspace{1.5em} #2 \par}    % Entry value
 
 \newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
-        \noindent\hangindent=2em\hangafter=0 % Indentation
-        \parbox{\spacebox}{        % Box to align text
-        \textit{#1}}               % Entry name (birth, address, etc.)
-        \hspace{1.5em} #2 \par}    % Entry value    
-        
+	\noindent\hangindent=2em\hangafter=0 % Indentation
+	\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}               % Entry name (birth, address, etc.)
+	\hspace{1.5em} #2 \par}    % Entry value    
+
 \newcommand{\EducationEntry}[4]{
-        \noindent \textbf{#1} \hfill      % Study
-        \colorbox{White}{%
-            \parbox{5cm}{%
-            \hfill\color{Black}#2}} \par  % Duration
-        \noindent \textit{#3} \par        % School
-        \noindent\hangindent=2em\hangafter=0 \small #4 % Description
-        \normalsize \par}
+	\noindent \textbf{#1} \hfill      % Study
+	\colorbox{White}{%
+		\parbox{5cm}{%
+			\hfill\color{Black}#2}} \par  % Duration
+	\noindent \textit{#3} \par        % School
+	\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+	\normalsize \par}
 
 \newcommand{\WorkEntry}[4]{               % Same as \EducationEntry
-        \noindent \textbf{#1} \hfill      % Jobname
-        \noindent\colorbox{Black}{\color{White}#2} \par  % Duration
-        \noindent \textit{#3} \par              % Company
-        \noindent\hangindent=2em\hangafter=0 \small #4 % Description
-        \normalsize \par}
+	\noindent \textbf{#1} \hfill      % Jobname
+	\noindent\colorbox{Black}{\color{White}#2} \par  % Duration
+	\noindent \textit{#3} \par              % Company
+	\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+	\normalsize \par}
 
 %%% Begin Document
 %%% ------------------------------------------------------------
@@ -121,57 +121,57 @@
 \EducationEntry{Postdoctoral Associate, Applied Math, Brown University}{2018.9-2019.6}
 {
 	\begin{itemize}[noitemsep]
-    \item Semester Postdoc at ICERM \href{http://icerm.brown.edu/programs/sp-s19/}{Spring 2019 Semester program on Computer Vision}
-    \item Organizer of the \href{https://stanniszhou.github.io/discussion-group/}{ICERM Generative Models Discussion Group}
-\end{itemize}
+		\item Semester Postdoc at ICERM \href{http://icerm.brown.edu/programs/sp-s19/}{Spring 2019 Semester program on Computer Vision}
+		\item Organizer of the \href{https://stanniszhou.github.io/discussion-group/}{ICERM Generative Models Discussion Group}
+	\end{itemize}
 }
 
 
 \EducationEntry{Applied Scientist Intern, Amazon Lab126}{2017.5-2018.8}
 {
-\begin{itemize}[noitemsep]
-    \item Collaborators: 
-\href{http://www.wisdom.weizmann.ac.il/~/achi/}{Achi Brandt}
-and
-\href{https://www.linkedin.com/in/eran-borenstein-526b4024/}{Eran Borenstein}, Computer Vision Team
-    \item Research on multiscale optimization methods for stochastic ill-conditioning in deep neural networks
-\end{itemize}
+	\begin{itemize}[noitemsep]
+		\item Collaborators:
+		      \href{http://www.wisdom.weizmann.ac.il/~/achi/}{Achi Brandt}
+		      and
+		      \href{https://www.linkedin.com/in/eran-borenstein-526b4024/}{Eran Borenstein}, Computer Vision Team
+		\item Research on multiscale optimization methods for stochastic ill-conditioning in deep neural networks
+	\end{itemize}
 }
 
 \EducationEntry{Consulting for Quantitative Finance Firms}{}
 {
-\begin{itemize}[noitemsep]
-\item Consultant, \href{http://www.qsemble.com/}{Qsemble Capital Management} \hfill 2018.9-2019.6
-\item Consultant, \href{http://www.eglp.com/}{Engineers Gate} \hfill 2015.8
-\end{itemize}
+	\begin{itemize}[noitemsep]
+		\item Consultant, \href{http://www.qsemble.com/}{Qsemble Capital Management} \hfill 2018.9-2019.6
+		\item Consultant, \href{http://www.eglp.com/}{Engineers Gate} \hfill 2015.8
+	\end{itemize}
 }
 
 \NewPart{Publications}
 
 \bibliographystyle{unsrt}
 \begingroup
-  \makeatletter
-  \let\@bibitem\saved@bibitem
-  \nobibliography{publications.bib}
+\makeatletter
+\let\@bibitem\saved@bibitem
+\nobibliography{publications.bib}
 \endgroup
 
 
 \begin{itemize}
-  \item \href{https://arxiv.org/abs/2308.15975}{\bibentry{vecerik2023robotap}}
-  \item \href{https://arxiv.org/abs/2302.03744}{\bibentry{zhou20233d}}
-  \item \href{https://arxiv.org/abs/2302.07350}{\bibentry{guntupalli2023graph}}
-  \item \href{https://arxiv.org/abs/2302.00099}{\bibentry{dedieu2023learning}}
-  \item \href{https://arxiv.org/abs/2212.01508}{\bibentry{raju2022space}}
-  \item \href{https://arxiv.org/abs/2202.04110}{\bibentry{zhou2022pgmax}}
-  \item \href{https://arxiv.org/abs/2201.08044}{\bibentry{zhou2022mahmc}}
-  \item \href{https://arxiv.org/abs/2112.03371}{\bibentry{zhou2021graphical}}
-  \item \href{https://ojs.aaai.org/index.php/AAAI/article/view/17004}{\bibentry{Zhou2020-qt}}
-  \item \href{https://stanniszhou.github.io/papers/mixed_hmc.pdf}{\bibentry{Zhou2020-wm}}
-  \item \href{https://www.biorxiv.org/content/10.1101/2020.09.09.290601v1}{\bibentry{George2020.09.09.290601}}
-  \item \href{http://stanniszhou.github.io/papers/diffusion_manuscript.pdf}{\bibentry{Loper2019-fh}}
-  \item \href{http://stanniszhou.github.io/papers/rna_statistics.pdf}{\bibentry{Zhou2019-op}}
-  \item \href{http://stanniszhou.github.io/papers/ISIT2014_GSZ_140427.pdf}{\bibentry{Zhou2014-pr}}
-  \item \href{http://stanniszhou.github.io/papers/L1Graph.pdf}{\bibentry{Zhou2013-gt}}
+	\item \href{https://arxiv.org/abs/2202.04110}{\bibentry{zhou2022pgmax}}
+	\item \href{https://arxiv.org/abs/2308.15975}{\bibentry{vecerik2023robotap}}
+	\item \href{https://arxiv.org/abs/2302.03744}{\bibentry{zhou20233d}}
+	\item \href{https://arxiv.org/abs/2302.07350}{\bibentry{guntupalli2023graph}}
+	\item \href{https://arxiv.org/abs/2302.00099}{\bibentry{dedieu2023learning}}
+	\item \href{https://arxiv.org/abs/2212.01508}{\bibentry{raju2022space}}
+	\item \href{https://arxiv.org/abs/2201.08044}{\bibentry{zhou2022mahmc}}
+	\item \href{https://arxiv.org/abs/2112.03371}{\bibentry{zhou2021graphical}}
+	\item \href{https://ojs.aaai.org/index.php/AAAI/article/view/17004}{\bibentry{Zhou2020-qt}}
+	\item \href{https://stanniszhou.github.io/papers/mixed_hmc.pdf}{\bibentry{Zhou2020-wm}}
+	\item \href{https://www.biorxiv.org/content/10.1101/2020.09.09.290601v1}{\bibentry{George2020.09.09.290601}}
+	\item \href{http://stanniszhou.github.io/papers/diffusion_manuscript.pdf}{\bibentry{Loper2019-fh}}
+	\item \href{http://stanniszhou.github.io/papers/rna_statistics.pdf}{\bibentry{Zhou2019-op}}
+	\item \href{http://stanniszhou.github.io/papers/ISIT2014_GSZ_140427.pdf}{\bibentry{Zhou2014-pr}}
+	\item \href{http://stanniszhou.github.io/papers/L1Graph.pdf}{\bibentry{Zhou2013-gt}}
 \end{itemize}
 
 \NewPart{Services}
