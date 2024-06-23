@@ -4,15 +4,29 @@ papers:
     authors: "<b>Guangyao Zhou</b>, Antoine Dedieu, Nishanth Kumar, Wolfgang Lehrach, Miguel Lázaro-Gredilla, Shrinu Kushagra, Dileep George"
     code: "https://github.com/google-deepmind/PGMax"
     preprint: "https://arxiv.org/abs/2202.04110"
-    venue: "Accepted conditioned on minor revisions, Journal of Machine Learning Research MLOSS, 2023+"
+    venue: "Accepted conditioned on minor revisions, Journal of Machine Learning Research MLOSS, 2024+"
     selected: y
+
   - title: "RoboTAP: Tracking Arbitrary Points for Few-Shot Visual Imitation"
     authors: "Mel Vecerik, Carl Doersch, Yi Yang, Todor Davchev, Yusuf Aytar, <b>Guangyao Zhou</b>, Raia Hadsell, Lourdes Agapito, Jon Scholz"
     preprint: "https://arxiv.org/abs/2308.15975"
     website: "https://robotap.github.io/"
     code: "https://github.com/google-deepmind/tapnet"
-    venue: "arXiv:2308.15975, 2023"
+    venue: "International Conference on Robotics and Automation (ICRA), 2024"
     selected: y
+
+  - title: "Learning Cognitive Maps from Transformer Representations for Efficient Planning in Partially Observed Environments"
+    authors: "Antoine Dedieu, Wolfgang Lehrach, <b>Guangyao Zhou</b>, Dileep George, Miguel Lázaro-Gredilla"
+    preprint: "https://arxiv.org/abs/2401.05946"
+    venue: "International Conference on Machine Learning (ICML), 2024"
+    selected: y
+
+  - title: "Space is a latent sequence: Structured sequence learning as a unified theory of representation in the hippocampus"
+    authors: "Rajkumar Vasudeva Raju, J Swaroop Guntupalli, <b>Guangyao Zhou</b>, Miguel Lázaro-Gredilla, Dileep George"
+    preprint: "https://arxiv.org/abs/2212.01508"
+    venue: "Accepted, Science Advances, 2024+"
+    selected: y
+
   - title: "3D Neural Embedding Likelihood: Probabilistic Inverse Graphics for Robust 6D Pose Estimation"
     authors: "<b>Guangyao Zhou</b><sup>‡</sup>, Nishad Gothoskar<sup>‡</sup>, Lirui Wang, Joshua B Tenenbaum, Dan Gutfreund, Miguel Lázaro-Gredilla, Dileep George, Vikash K Mansinghka"
     preprint: "https://arxiv.org/abs/2302.03744"
@@ -20,21 +34,18 @@ papers:
     code: "https://github.com/google-deepmind/threednel"
     venue: "International Conference on Computer Vision (ICCV), 2023"
     selected: y
+
   - title: "Graph schemas as abstractions for transfer learning, inference, and planning"
     authors: "J Swaroop Guntupalli, Rajkumar Vasudeva Raju, Shrinu Kushagra, Carter Wendelken, Danny Sawyer, Ishan Deshpande, <b>Guangyao Zhou</b>, Miguel Lázaro-Gredilla, Dileep George"
     preprint: "https://arxiv.org/abs/2302.07350"
     venue: "arXiv:2302.07350, 2023"
     selected: y
+
   - title: "Learning noisy-OR Bayesian Networks with Max-Product Belief Propagation"
     authors: "Antoine Dedieu, <b>Guangyao Zhou</b>, Dileep George, Miguel Lázaro-Gredilla"
     preprint: "https://arxiv.org/abs/2302.00099"
     code: "https://github.com/google-deepmind/max_product_noisy_or"
     venue: "International Conference on Machine Learning (ICML), 2023"
-    selected: y
-  - title: "Space is a latent sequence: Structured sequence learning as a unified theory of representation in the hippocampus"
-    authors: "Rajkumar Vasudeva Raju, J Swaroop Guntupalli, <b>Guangyao Zhou</b>, Miguel Lázaro-Gredilla, Dileep George"
-    preprint: "https://arxiv.org/abs/2212.01508"
-    venue: "arXiv:2212.01508, 2022"
     selected: y
 
   - title: "Metropolis Augmented Hamiltonian Monte Carlo"
