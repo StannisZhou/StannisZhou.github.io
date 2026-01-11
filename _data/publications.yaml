@@ -7,11 +7,18 @@ papers:
     preprint: "https://arxiv.org/abs/2510.03342"
     selected: y
 
+  - title: "Diffusion Model Predictive Control"
+    authors: "<b>Guangyao Zhou</b>, Sivaramakrishnan Swaminathan, Rajkumar Vasudeva Raju, J Swaroop Guntupalli, Wolfgang Lehrach, Joseph Ortiz, Antoine Dedieu, Miguel Lázaro-Gredilla, Kevin Murphy"
+    preprint: "https://arxiv.org/abs/2410.05364"
+    paper_pdf: "https://openreview.net/pdf?id=pvtgffHtJm"
+    venue: "Transactions on Machine Learning Research, 2025"
+    selected: y
+
   - title: "PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX"
     authors: "<b>Guangyao Zhou</b>, Antoine Dedieu, Nishanth Kumar, Wolfgang Lehrach, Miguel Lázaro-Gredilla, Shrinu Kushagra, Dileep George"
     code: "https://github.com/google-deepmind/PGMax"
     preprint: "https://arxiv.org/abs/2202.04110"
-    venue: "Journal of Machine Learning Research MLOSS, 2024+"
+    venue: "Journal of Machine Learning Research MLOSS, 2024"
     selected: y
 
   - title: "RoboTAP: Tracking Arbitrary Points for Few-Shot Visual Imitation"
